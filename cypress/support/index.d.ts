@@ -19,6 +19,7 @@ declare namespace Cypress {
 
     /**
      * Custom command for adding two numbers
+     * @deprecated Use `cy.math.add` instead
      */
     add: addFn
   }
