@@ -7,17 +7,6 @@ declare namespace Cypress {
 
   interface Chainable {
     /**
-     * Custom commands for doing math operations
-     */
-    math: {
-      /**
-       * Add two numbers
-       * @example cy.math.add(2, 3).should('equal', 5)
-       */
-      add: addFn
-    }
-
-    /**
      * Custom command for adding two numbers
      */
     add: addFn
