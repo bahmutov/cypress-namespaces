@@ -8,6 +8,8 @@
 cy.math.add(2, 3).should('equal', 5)
 ```
 
+📝 Read the blog post [Cypress Namespaces For Custom Commands](https://glebbahmutov.com/blog/cypress-namespaces/)
+
 ## Small print
 
 Author: Gleb Bahmutov &lt;gleb.bahmutov@gmail.com&gt; &copy; 2024
